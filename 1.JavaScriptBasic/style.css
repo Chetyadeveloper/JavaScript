@@ -1,0 +1,14 @@
+
+ nav{
+    display: flex;
+    border: 2px solid black;
+    box-shadow: 0 5px 10px red;
+    padding: 20px;
+    background-color: limegreen;
+ }
+ nav a{
+    font-size: 20px;
+    text-decoration: none;
+    font-family:'Times New Roman', Times, serif;
+ }
+  
