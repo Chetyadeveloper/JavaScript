@@ -12,7 +12,7 @@ console.warn('this is warning message');
 
 /*prininting table data */
 
-let student ={
+let student = {
     name : 'chetya',
     age  :29 ,
     city : 'hyd'
