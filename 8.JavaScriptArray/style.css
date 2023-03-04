@@ -1,0 +1,21 @@
+body{
+     font-family: Arial, Helvetica, sans-serif;
+     margin: 0%;
+}
+
+ nav{
+  width: 100%;
+    border: 2px solid black;
+    box-shadow: 0 5px 10px red;
+    background-color: limegreen;
+    border-radius: 2px;
+    padding: 20px;
+    position: fixed;
+  
+ }
+ nav a{
+   
+    font-size: 20px;
+    text-decoration: none;
+ }
+ 
