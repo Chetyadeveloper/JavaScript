@@ -1,5 +1,5 @@
-//for loop
-//while loop
+//for loop , nested for loop
+//while loop 
 // do-while loop
 
 
@@ -57,6 +57,84 @@
                                 
                              }
                              console.log(r);
+
+// nested loop :--
+        
+     /* Syntax:  for(initization;condition;increment/decerement){
+                         // block of statement ;   
+                      for(initization;condition;increment/decerement){
+                          // block of statement ;                  
+                         }     
+            
+                    }     
+    */
+
+        // Example 1 :
+          
+                       for(let r=0; r<3;r++){
+                             console.log("Outer loop"); 
+                             console.log(r);
+                             for(let j=0 ; j < 5 ; j++){
+                                console.log(" inner loop"); 
+                                console.log(j);
+                                 
+                             }                          
+
+                       }
+
+                    
+      // while loop
+      
+      // example 1 :
+                            let d = 0 ;
+                            while( d < 5){
+                                console.log(`while loop : ${d}`);
+                                d ++ ;
+
+                            }
+
+       // nested while loop
+                           let e = 0;
+                           while (e < 3) 
+                           {
+                               console.log(`outer while lopp ${e}`);
+                               e ++;
+                               let f = 0;
+                              while (f < 5) {
+                                console.log(`innner loop + ${f}`);
+                            }
+
+                           }
+
+
+       // do -while
+       
+       //example 1 :
+
+           let v = 0;
+           do{
+                    console.log(`${v}`);
+                    v ++ ;
+           }while(v < 5);
+
+
+       // nested do -while 
+       
+      // example :
+       
+                    let q = 0;
+                    do{
+                        document.write(q);
+                        q ++;
+                        let w = 0;
+                        do{
+                            document.write('inner loop'+w);
+                        }
+                        while(w<5);
+                    }while(q<5);
+
+
+
 
                             
 
