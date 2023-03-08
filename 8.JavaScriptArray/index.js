@@ -104,7 +104,17 @@
 
    12.find() --> find exact element with condition from array.
 
-   13 filter() --> to filter the array element.
+   13. filter() --> to filter the array element.
+
+   14. concat()  --> merge one or more than one array .
+
+    15. indexOf() -->
+
+    16. toString() -->
+
+    17. fill() -->
+
+    18. ArrayisArray() --> 
 */
 
 //              Examples :
@@ -187,4 +197,16 @@
                                let splitstring=joinstring.split('-');
                                console.log(splitstring);
 
-                   //             
+                   //  10.  concat()  --> merge one or more than one array .
+                         //Example 1 :
+                           var oldgeeks = ['Rahul','Sonam','Sumit'];
+		                   var new_geeks = oldgeeks.concat('Raj','Rohit');
+		                   document.write(new_geeks);           
+                           //Example 2 :
+                           var oldgeeks1 = ['Rahul','Sonam','Sumit'];
+                           var oldgeeks2 = ['Raj','Rohit'];
+                           var oldgeeks3 = ['chetan','chiku'];
+		                   var new_geeks = oldgeeks1.concat(oldgeeks2,oldgeeks3);
+		                   document.write(new_geeks);           
+                    //
+
