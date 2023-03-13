@@ -189,7 +189,80 @@
                                 show();
                             */
 
-                                
+            // function Expression : function assign to a variable is know as function expression.
+
+                       /* Example :    
+                         var myfun=function display(){
+                             console.log('Welcome to goa');
+                           }
+                           myfun();
+                         */
+                        
+             //Anonymous Function :--- function having no name.
+                          /*
+                            a) store to variable
+                                var myfun=function(){
+                                    console.log('Welcome to goa');
+                                };
+                                myfun();
+                       */
+                            
+                            //   b> passing anonymous function as argumerment
+                              /*
+                                 function disp(myfun){
+                                     return myfun();
+                                 }
+                                 console.log(disp(function(){
+                                      return 'chetan';
+                                 }));
+                               */
+                            //   c) returning anonymous function
+                                 /*
+                                  function disp(a){
+                                        return function(b){
+                                            return a+b;
+                                        };
+                                    }
+                                        var af=disp(10);
+                                        console.log(af(20));
+                                 */
+
+                // Arrow Function :---
+                         /* Example 1 : Arrow function without parameter  
+                            var myfun=()=>{
+                                console.log('chetan');
+                            };
+                            myfun();
+                           */
+
+                          /* Example 2: Arrow function with parameter
+                             i)  var myfun=a=>{
+                                console.log('chetan'+a);
+                            };
+                            myfun(10);
+                           
+                             ii) 
+                                var myfun=(a,b)=>{
+                                    console.log('chetan'+a+""+b);
+                                };
+                                myfun(10,20);
+                          */
+                            /* Example 3 : Arrow function with Default parameter.
+                                var myfun=(a,b=20)=>{
+                                    console.log('chetan'+a+" "+b);
+                                };
+                                myfun(10,40);
+                            */
+                              /* Example 4 : Arrow function with rest parameter 
+                                var myfun=(a,...args)=>{
+                                    console.log('chetan'+a+" "+args);
+                                };
+                                myfun(10,20,30,40,50);
+                              */  
+                          
+                         
+
+
 
 
 
